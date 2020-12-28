@@ -1,0 +1,22 @@
+{
+    "name": "nathandevalpina/codigo-inicial",
+    "description": "Base para inicio de desenvolvimento",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nathan Reis",
+            "email": "nathan.ti@alpina.com.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        }
+    },
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "1.*"
+    }
+}
